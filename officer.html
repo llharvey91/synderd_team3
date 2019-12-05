@@ -192,113 +192,27 @@
     <head>
       <meta charset="utf-8">
       <link rel="stylesheet" href="joinUs.css">
-      <title>Create Account</title>
     </head>
 
   <body>
-    <h2>Please enter your Information below</h2><br>
+    <h2>Please Enter Your Information Below</h2><br>
 
     <div class="container">
       <form name="regForm">
 
-        <label for="username">Username:</label>
-        <input type="text" id="username" maxlength="8" required><br>
+        <label for="subID">Subscriber ID:</label>
+        <input type="text" id="subID"><br>
 
-        <label for="passw">Password:</label>
-        <input type="password" id="passw" name="passw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength="15"
-          title="Must be more than 8 Characters but no more than 15, contain a number, lowercase, and uppercase."
-          required><br>
+        <label for="offc">Office Code:</label>
+        <input type="text" id="officeCode"><br>
 
 
-        <label for="fName">First Name: </label>
-        <input type="text" id="fName"><br>
+        <label for="startdate">Start Date: </label>
+        <input type="text" id="startdate"><br>
 
-        <label for="lName">Last Name: </label>
-        <input type="text" id="lName"><br>
+        <label for="enddate">End Date : </label>
+        <input type="text" id="enddate"><br>
 
-        <label for="gender">Gender: </label>
-        <input type="radio" name="gender" value="male" required>Male
-        <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="noAns">Prefer not to Answer<br><br>
-
-        <label for="address">Street Address: </label>
-        <input type="text" id="address" required><br>
-
-        <label for="city">City: </label>
-        <input type="text" id="city" required><br>
-
-        <label for="state">State: </label>
-        <select required>
-          <option value="AL">Alabama</option>
-          <option value="AK">Alaska</option>
-          <option value="AZ" selected>Arizona</option>
-          <option value="AR">Arkansas</option>
-          <option value="CA">California</option>
-          <option value="CO">Colorado</option>
-          <option value="CT">Connecticut</option>
-          <option value="DE">Delaware</option>
-          <option value="DC">District Of Columbia</option>
-          <option value="FL">Florida</option>
-          <option value="GA">Georgia</option>
-          <option value="HI">Hawaii</option>
-          <option value="ID">Idaho</option>
-          <option value="IL">Illinois</option>
-          <option value="IN">Indiana</option>
-          <option value="IA">Iowa</option>
-          <option value="KS">Kansas</option>
-          <option value="KY">Kentucky</option>
-          <option value="LA">Louisiana</option>
-          <option value="ME">Maine</option>
-          <option value="MD">Maryland</option>
-          <option value="MA">Massachusetts</option>
-          <option value="MI">Michigan</option>
-          <option value="MN">Minnesota</option>
-          <option value="MS">Mississippi</option>
-          <option value="MO">Missouri</option>
-          <option value="MT">Montana</option>
-          <option value="NE">Nebraska</option>
-          <option value="NV">Nevada</option>
-          <option value="NH">New Hampshire</option>
-          <option value="NJ">New Jersey</option>
-          <option value="NM">New Mexico</option>
-          <option value="NY">New York</option>
-          <option value="NC">North Carolina</option>
-          <option value="ND">North Dakota</option>
-          <option value="OH">Ohio</option>
-          <option value="OK">Oklahoma</option>
-          <option value="OR">Oregon</option>
-          <option value="PA">Pennsylvania</option>
-          <option value="RI">Rhode Island</option>
-          <option value="SC">South Carolina</option>
-          <option value="SD">South Dakota</option>
-          <option value="TN">Tennessee</option>
-          <option value="TX">Texas</option>
-          <option value="UT">Utah</option>
-          <option value="VT">Vermont</option>
-          <option value="VA">Virginia</option>
-          <option value="WA">Washington</option>
-          <option value="WV">West Virginia</option>
-          <option value="WI">Wisconsin</option>
-          <option value="WY">Wyoming</option>
-        </select><br>
-
-        <label for="zipCode">Zip Code: </label>
-        <input type="text" id="zipCode" required><br>
-
-        <label for="email">Email: </label>
-        <input type="text" id="email" required><br>
-
-        <label for="cellNum">Cell Phone: </label>
-        <input type="text" id="cellNum" required><br>
-
-        <label for="country">Country of Origin: </label>
-        <input type="text" id="country" required><br>
-
-        <label for="dob">Date of Birth: </label>
-        <input type="text" id="dob" required><br>
-
-        <label for="memOrg">Member Organization: </label>
-        <input type="text" id="memOrg"><br>
 
         <input type="submit" value="Submit">
       </form>
